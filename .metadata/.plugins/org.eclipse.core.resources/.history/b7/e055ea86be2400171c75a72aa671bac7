@@ -1,0 +1,5 @@
+package com.synerzip.restapi.Messanger.model;
+
+public class Message {
+
+}

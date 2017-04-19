@@ -1,0 +1,5 @@
+package com.synerzip.restapi.Messanger.resource;
+
+public class MessageResource {
+
+}

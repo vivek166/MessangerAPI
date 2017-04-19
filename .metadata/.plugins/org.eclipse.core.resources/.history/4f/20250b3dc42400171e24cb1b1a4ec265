@@ -1,0 +1,8 @@
+package com.synerzip.restapi.Messanger.databases;
+
+import java.util.*;
+public class DbConnection {
+
+	private static Map<long, Message> messages=new Map<>();
+	private static Map<long, Profile> profiles=new Map<>();
+}

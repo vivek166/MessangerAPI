@@ -1,0 +1,54 @@
+package com.synerzip.restapi.Messanger.model;
+
+import java.util.Date;
+
+public class Message {
+
+	int id;
+	String auther;
+	Date created;
+	String message;
+
+	public Message() {
+
+	}
+
+	public Message(int id, String auther,  String message) {
+		this.id = id;
+		this.auther = auther;
+		this.message = message;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getAuther() {
+		return auther;
+	}
+
+	public void setAuther(String auther) {
+		this.auther = auther;
+	}
+
+	public Date getCreated() {
+		return created;
+	}
+
+	public void setCreated(Date created) {
+		this.created = created;
+	}
+
+	public String getMessage() {
+		return message;
+	}
+
+	public void setMessage(String message) {
+		this.message = message;
+	}
+
+}

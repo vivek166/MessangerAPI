@@ -1,0 +1,10 @@
+package com.synerzip.restapi.Messanger.service;
+
+import com.synerzip.restapi.Messanger.model.Message;
+
+public class MessageService {
+
+	public void getAllMessage(){
+		Message m1=new Message(1,"vivek",12/02/2014,"this is book");
+	}
+}
